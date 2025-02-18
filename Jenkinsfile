@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout the code from the repository
-                git 'https://github.com/username/your-repo.git' // Replace with your repository URL
+                git 'https://github.com/Deeps-05/Internship-project-01' // Replace with your repository URL
             }
         }
 
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo "Starting Docker build..."
                 // Build the Docker image
-                sh 'docker build -t your_image_name .' // Ensure this points to the correct directory containing your Dockerfile
+                sh 'docker build -t my_docker .' // Ensure this points to the correct directory containing your Dockerfile
                 echo "Docker build completed!"
             }
         }
@@ -22,7 +22,7 @@ pipeline {
             steps {
                 echo "Running tests..."
                 // Optionally run tests or any other commands here
-                // sh 'docker run --rm your_image_name npm test' // Example for running tests if applicable
+                // sh 'docker run --rm my_docker npm test' // Example for running tests if applicable
             }
         }
 
