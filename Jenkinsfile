@@ -8,7 +8,7 @@ pipeline {
                     git 'https://github.com/Deeps-05/Internship-project-01.git'
                     
                     // Run shell script to deploy application
-                    sh './deploy.sh'
+                    sh 'chmod +x deploy.sh'
                 }
             }
         }
