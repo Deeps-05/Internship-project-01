@@ -30,7 +30,7 @@ pipeline {
             steps {
                 echo "Deploying application..."
                 // Deploy your application (e.g., run the container)
-                sh 'docker run -d --name my_docker -p 5000:5000 your_image_name'
+                sh 'docker run -d --name my_docker -p 5000:5000 my_docker'
             }
         }
     }
