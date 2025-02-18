@@ -20,4 +20,4 @@ fi
 docker build -t $IMAGE_NAME .
 
 # Run a new container from the image
-docker run -d --name $CONTAINER_NAME -p 3000:3000 $IMAGE_NAME
+docker run -d --name $CONTAINER_NAME -p 5000:5000 $IMAGE_NAME
