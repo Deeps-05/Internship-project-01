@@ -7,11 +7,11 @@
     "start": "node index.js"
   },
  "dependencies": {
-  "express": "^4.18.2" // Example:  Latest version as of now
+  "express": "^4.18.2"
   },
 
   "engines": {
-  "node": ">=18"  // Example:  Requires Node.js 18 or higher
+  "node": ">=18"  
   },
 
   "repository": {
